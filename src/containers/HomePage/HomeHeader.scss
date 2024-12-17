@@ -1,0 +1,233 @@
+.home-header-container {
+    height: 100%;
+    width: 100%;
+    border: 1px solid greenyellow;
+
+    .home-header-conten {
+        width: 100%;
+        height: 150px;
+        .toptopheader{
+            width: 100%;
+            height: 35px;
+            margin: 0 auto;
+            
+            background-color: black;
+            .topheader {
+                width: 1200px;
+                height: 35px;
+                margin: 0 auto;
+                display: flex;
+                padding: 2px;
+                
+                color: aliceblue;
+
+                .top-left {
+                    width: 25%;
+                    
+                    padding-top: 5px;
+                }
+
+                .top-mid {
+                    width: 50%;
+                    
+                }
+
+                .top-right {
+                    width: 25%;
+                   
+                    display: flex;
+                    justify-content: end;
+
+                    .home-login {
+                        width: auto;
+                        padding: 6px 0px;
+                        margin-left: 8px;
+                        cursor: pointer;
+                    }
+
+                    .home-register {
+                        width: auto;
+                        margin-left: 20px;
+                        padding: 6px 0px;
+                        cursor: pointer;
+
+                        .home-register:hover {
+                            color: aqua;
+                        }
+                    }
+                }
+            }
+        }
+        .mid-header {
+            display: flex;
+            height: 75px;
+            width: 1200px;
+            margin: 0 auto;
+
+            .left-mid-header {
+                width: 25%;
+                border: 1px solid red;
+
+                .logo-1 {
+                    background: url('../../assets/images/logo1.png') center center no-repeat;
+                    width: 120px;
+                    height: 100%;
+                    cursor: pointer;
+                    margin: 0 auto;
+                }
+            }
+
+            .mid-mid-header {
+                width: 50%;
+                border: 1px solid red;
+                .search{
+                    display: flex;
+                    border: 1px solid black;
+                    width: 400px;
+                    align-items: center;
+                    padding: 8px;
+                    border-radius: 20px;
+                    margin: 13px auto;
+                    input{
+                        height: auto;
+                        width: 340px;
+                        padding-left: 7px;
+                        outline: none;
+                        border: none;
+                    }
+                }
+            }
+
+            .right-mid-header {
+                width: 25%;
+                border: 1px solid red;
+                display: flex;
+                
+                padding: 10px;
+                .conten1{
+                    width: fit-content;
+                    border: 1px solid red;
+                    display: flex;
+                    cursor: pointer;
+                    justify-content: end;
+                    float: right;
+                    
+                    i{
+                        font-size: 35px;
+                        margin-right: 5px;
+                        
+                    }
+                }
+            }     
+        }
+        .bottom-header{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(114, 150, 204);
+            .conten2{
+                width: 1200px;
+                display: flex;
+                border: 1px solid rgb(55, 131, 105);
+                height: 40px;
+                color: aliceblue;
+                font-size: 16px;
+                margin: 0 auto;
+                ul{
+                    display: flex;
+                    
+                    .li1 {
+                            margin-right: 100px;
+                        }
+                    li{
+                        padding-right: 10px;
+                        padding-top: 5px;
+                        height: 33px;
+                        border: 1px solid red;
+                        list-style: none;
+                        cursor: pointer;
+                        
+                    }
+                }
+            }
+        }
+    }
+    .body-container{
+        width: 100%;
+        height: 100%;
+        border: 1px solid rgb(28, 202, 66);
+        margin-bottom: 100px;
+        .body-conten{
+            width: 1200px;
+            height: 100%;
+            border: 1px solid red;
+            margin: 0 auto;
+            display: flex;
+            .body-conten-left{
+                border: 1px solid rgb(20, 122, 136);
+                width: 25%;
+                height: 100%;
+            }
+            .body-conten-right{
+                border: 1px solid red;
+                width: 75%;
+                height: 100%;
+                .body-item-container{
+                    width: 100%;
+                    height: 310px;
+                    display: flex;
+                    border: 1px solid rgb(69, 18, 163);
+                    .item-conten{
+                        min-width: 210px;
+                        height: 290px;
+                        border: 1px solid red;
+                        padding: 4.5px;
+                        margin: 5px;
+                        margin-left: 7.5px;
+                        cursor: pointer;
+                    }
+                        .item-img{
+                            border: 1px solid red;
+                            width: 200px;
+                            height: 200px;
+                            cursor: pointer;
+                        }
+                        .item-img{
+                            background: url('../../assets/images/meokhinh.png') center;
+                        }
+                        .item-buynow{
+                            cursor: pointer;
+                            font-size: 15px;
+                            width: fit-content;
+                            height: fit-content;
+                            background-color: aqua;
+                            border-radius: 20px;
+                            padding: 2px;
+                            margin-top: 2px;
+                            
+                        }
+                        .item-sell{
+                            font-size: 20px;
+                            color: rgb(68, 136, 199);
+                        }
+                    }
+                }
+            }
+        }
+        .footer-container{
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            .footer-conten{
+                border: 1px solid red;
+                width: 1200px;
+                height: 150px;
+                margin: 0 auto;
+                .footer-left{
+                    width: 50%;
+                    color: aliceblue;
+                }
+
+            }
+        }
+
+    }
